@@ -5,27 +5,24 @@
 
 ---
 
-## 🚀 使い始める（コピペするだけ・約5分）
+## 🚀 使い始める（Claude Code にぜんぶ任せる）
 
-### 1. このリポジトリを取り込む
+用意するのは [Claude Code](https://claude.com/claude-code) だけ。**Claude Code を開いて、次の文をそのままコピペで貼り付けてください。** ダウンロード（クローン）も初期設定も Claude が代行します。あとは対話しながら進めるだけ。
 
-ターミナル（Mac なら「ターミナル.app」）に、次の1行を貼り付けて実行してください：
+```text
+GitHub の家計管理テンプレート https://github.com/yocchan-git/kakei-with-claude を使いたいです。私は非エンジニアです。
 
-```bash
-git clone https://github.com/yocchan-git/kakei-with-claude.git && cd kakei-with-claude && claude
+次をお願いします：
+1. このリポジトリを私のホームフォルダにクローンしてください
+2. クローンしたフォルダに移動し、その中の .claude/skills/setup/SKILL.md の手順に沿って、初期セットアップ（必要なインストール・通知設定・カレンダー連携・目標設定・初月の予算づくり）を対話で進めてください
+3. あなたが代行できる作業は代行し、私の操作が必要な部分（Web でボタンを押す等）だけ、場所を具体的に案内してください
+
+専門用語は避けて、1ステップずつ進めてください。
 ```
 
-> [Claude Code](https://claude.com/claude-code) が未インストールなら、先に `npm install -g @anthropic-ai/claude-code` を実行してください。
+これだけ。**ターミナルを触る必要も、コマンドを覚える必要もありません。** 通知先（Discord など）の準備も予算づくりも、Claude が手取り足取り進めます。
 
-### 2. Claude Code が開いたら、次の文をそのまま貼り付ける
-
-```
-このリポジトリのセットアップをしてください。私は非エンジニアです。
-通知設定・カレンダー連携・目標設定・初月の予算づくりまで、
-あなたが代行できるものは代行し、私の操作が要る部分だけ手順を案内してください。 /setup
-```
-
-あとは Claude の案内どおりに進めるだけ。**コマンドを覚える必要はありません。** 通知先（Discord など）の準備も、予算づくりも、Claude が手取り足取り進めます。
+> Claude Code をまだ開ける状態にしていない場合は、まず [Claude Code](https://claude.com/claude-code) の案内に従ってインストールしてください。
 
 ---
 
