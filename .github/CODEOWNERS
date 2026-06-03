@@ -1,0 +1,3 @@
+# main ブランチへのすべての変更はオーナーのレビュー承認を必須にする。
+# （ブランチ保護ルールで "Require review from Code Owners" を有効化している）
+* @yocchan-git

@@ -1,0 +1,21 @@
+{
+  "name": "kakei-with-claude",
+  "version": "1.0.0",
+  "description": "Claude Code で家計の予実管理。月初に予算、週次で対話レビュー。通知先（Discord/Slack/Chatwork）と CSV 取込は差し替え式。",
+  "type": "module",
+  "scripts": {
+    "reminder:weekly": "tsx --env-file=.env src/reminder.ts weekly",
+    "reminder:month-start": "tsx --env-file=.env src/reminder.ts month-start",
+    "import:csv": "tsx src/import-csv.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["claude-code", "household-budget", "kakeibo"],
+  "license": "MIT",
+  "dependencies": {
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0"
+  }
+}

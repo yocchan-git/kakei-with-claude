@@ -1,0 +1,10 @@
+{
+  "projectPath": "~/kakei-with-claude",
+  "csv": {
+    "downloadsDir": "~/Downloads",
+    "filePattern": "^収入・支出詳細_(\\d{4})-(\\d{2})-\\d{2}_\\d{4}-\\d{2}-\\d{2}\\.csv$",
+    "yearGroup": 1,
+    "monthGroup": 2
+  },
+  "categories": ["食費", "日用品", "交通費", "健康・医療", "イベント費", "予備"]
+}

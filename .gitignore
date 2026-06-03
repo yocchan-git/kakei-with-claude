@@ -1,0 +1,15 @@
+node_modules/
+dist/
+
+# 秘密情報（通知トークン等）はコミットしない
+.env
+
+# 個人設定（パス・CSV マッピング）
+config.json
+
+# 家計の実データはコミットしない（サンプルのみ追跡する）
+data/inbox/*.csv
+data/balances.json
+data/TARGETS.md
+data/months/*.md
+!data/months/EXAMPLE-*.md
